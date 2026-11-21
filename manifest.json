@@ -1,0 +1,11 @@
+{
+  "name": "MEU FINANCEIRO",
+  "short_name": "Meu Financeiro",
+  "description": "Aplicativo para organizar suas finanças.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#101010",
+  "theme_color": "#D4AF37"
+}
