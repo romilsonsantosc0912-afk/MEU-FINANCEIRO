@@ -4719,5 +4719,13 @@ self.addEventListener('fetch', (event) => {
             runOfflinePersistenceDiagnostic().catch(() => {});
         });
     </script>
+    <script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./service-worker.js")
+      .catch((error) => console.error("Erro:", error));
+  });
+}
+</script>
 </body>
 </html>
